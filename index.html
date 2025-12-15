@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="검정치마 노래 가사의 예술성">
+    <meta property="https://i.pinimg.com/1200x/b7/30/ec/b730ec12648bfd5e6e80d93f3c21af4b.jpg" content="https://leebh.github.io/dimidifinal/thumbnail.jpg" />
+
+    <title>검정치마 ARCHIVE</title>
+    <style>
+
+        @font-face {
+            font-family: 'KimJeongcheolMyoungjo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Light.woff2') format('woff2');
+            font-weight: 300;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'KimJeongcheolMyoungjo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'KimJeongcheolMyoungjo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-display: swap;
+        }
+
+        html, body {
+    overflow-x: hidden;
+    }
+
+
+        body {
+    font-family: 'KimJeongcheolMyoungjo', serif;
+    font-weight: 400;
+    margin: 50px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: url('cursor.cur'), url('cursor.png') 0 0, auto !important;
+    }
+
+    button,
+    button:hover,
+    button:active {
+    cursor: url('cursor_fixed.cur'), auto !important;
+    }
+
+        h1 {
+            font-weight: 700;
+        }
+
+        h2 {
+            font-weight: 500;
+        }
+
+        p {
+            font-weight: 300;
+            line-height: 2;
+        }
+
+
+        p.light {
+            font-weight: 300;
+        }
+
+        h2.light {
+            font-weight: 10;
+        }
+
+        p.color {
+            color: grey;
+        }
+
+        p.small {
+            font-size: 12px;
+        }
+
+        h2.a {
+            font-weight: 400;
+            font-size: 23px;
+        }
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+        .highlight1 {
+      color: white;
+      background-color: black;
+      font-size: 50px;
+      display: inline;
+      padding: 6px 6px;
+    }
+
+        .highlight2 {
+      color: white;
+      background-color: grey;
+      display: inline;
+      padding: 4px 4px;
+    }
+
+        .highlight3 {
+            background-color: white;
+            padding: 4px 4px;
+            display: block;
+            opacity: 0.5;
+        }
+
+
+h1, p {
+  margin: 0; 
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+
+section {padding-bottom: 80px}
+
+.photo-frame1 {
+  padding: 15px;
+  background: white;
+  border: 0.7px solid;
+  color: grey;
+  width: fit-content;
+  margin: auto;
+}
+
+.photo-frame2  {
+  padding: 15px;
+  border: 0.7px solid;
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photo-frame img {
+  display: block;
+}
+
+.sticker {
+  position: absolute;
+  transform-origin: center;
+}
+
+.cloud1 {
+  width: 250px;
+  left: 25%;
+  top: 60%;
+}
+
+
+.cloud2 {
+  width: 170px;
+  left: 70%;
+  top: 38%;          
+}
+
+.cloud3 {
+  width: 300px;
+  left: 60%;
+  top: 27%;          
+}
+
+.cloud {
+    position: absolute;
+    animation: floatCloud 5s ease-in-out infinite;
+    pointer-events: none; 
+}
+
+@keyframes floatCloud {
+    0% {
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(20px) translateY(-10px);
+        opacity: 0.9;
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.grey {
+    color: grey;
+    font-weight: 300;
+}
+
+.bg1 {
+  background-image: url('songsback.png');
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 500px;
+}
+
+.bg2 {
+    background-image: url('clgback.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+
+.bg3 {
+    position: relative;
+    width: 100vw;          
+    height: 100vh;        
+    overflow: hidden;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg3::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffffff, #454545);
+    z-index: -1;           
+}
+
+.bg3 .bg-img {
+    width: 100%;          
+    height: 100%;
+    object-fit: cover;     
+    position: relative;
+    z-index: 0;
+}
+
+
+.grey{color:white; background: grey;}
+.intext{background: white;
+        opacity: 0.8}
+
+section.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px; 
+        width: 100%;
+        max-width: 450px; 
+        margin: 0 auto;
+    }
+
+    section.grid img {
+        width: 100%;
+        display: block;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+   
+section.grid .item img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+section.grid .item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.8);
+    filter: brightness(1.3);
+}
+
+.bg3 {
+    position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+   display: grid;              
+    place-items: center;
+}
+
+.bg3::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffffff, #454545);
+    z-index: -1;
+}
+
+.photo-frame2 {
+    border: 0.7px solid;
+    box-sizing: border-box;
+}
+
+.photo-frame2 img {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+    </style>
+
+</head>
+<body>
+
+<section>
+    <div class="wrapper">
+    <p class="light color small"> 좋아해줘-검정치마 中... </p>
+    <h1 class="highlight1">오빠 날 잡아 줘, 날 감싸 안아 줘</h1>
+    <h2 class="light"> 감정을 가장 솔직한 언어로 표현하다, 검정치마 </h2>
+    </div>
+</section>
+
+<section>
+    <div class="photo-frame1 wrapper">
+   <img src="https://i.pinimg.com/1200x/1a/bd/6e/1abd6e1bec942d9c2d851ab4769ea016.jpg" width="450">
+   <img src="cloud1.png" class="sticker cloud cloud1">
+    <img src="cloud2.png" class="sticker cloud cloud2">
+    <img src="cloud3.png" class="sticker cloud cloud3">
+
+</div>
+</section>
+
+<section>
+    <div class="wrapper">
+    <h2>
+  <span class="grey">‘조휴일’ ‘조홍철’ ‘Bryan Cho’ ‘The Black Skirts’</span><br>
+  검정치마 그는 누구인가?
+</div>
+</section>
+
+<section class="grey">
+    <div class="wrapper">
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>검정치마는 낯섦과 이방성에서 출발한 아티스트이다.</p>
+        <p>그는 미국이라는 낯선 환경 속에서 사랑과 관계를 바라보는 섬세한 음악가로 자라났다.</p>
+        <p>타지에서의 묘한 외로움은 그의 감각을 예민하게 만들었고,</p>
+        <p>그는 그 감각으로 다채로운 관계들을 노래한다.</p>
+        <p>검정치마 음악의 가장 큰 매력은 순수한 감정(사랑·쓸쓸함)위에</p>
+        <p>능청스럽고 솔직한 섹슈얼리티를 자연스럽게 얹는 방식이다.</p>
+        <p>노골적이고 직설적인 표현도 주저하지 않지만,</p>
+        <p>그 모든 표현의 핵심에는 누군가에게 안기고 싶은 사랑의 갈망이 자리한다.</p>
+        <p>그래서 그의 음악은</p>
+        <p class="highlight2">솔직해서 더 매력적이고, 노골적이라 더 예술적이다.</p>
+        <p>그는 사랑의 못난 면을 숨기지 않음으로써</p>
+        <p>다른 인디 밴드와 결을 달리한다.</p>
+    </div>
+</section>
+
+<section></section>
+
+<section class="bg1">
+    <div class="wrapper">
+
+<br><br><br>
+
+<p><span class="intext"> 201 </span></p>
+<p><span class="intext">좋아해줘</span></p>
+<p><span class="intext">Stand Still</span></p>
+<p><span class="intext">강아지</span></p>
+<p><span class="intext">상아</span></p>
+<p><span class="intext">Antifreeze</span></p>
+<p><span class="intext">Tangled</span></p>
+<p><span class="intext">Avant Garde Kim</span></p>
+<p><span class="intext">Le Fou Muet</span></p>
+<p><span class="intext">Dientes</span></p>
+<p><span class="intext">Kiss and tell</span></p>
+<p><span class="intext">Stand Still ('07 Korean Ver.) (Bonus Track)</span></p>
+<p><span class="intext">Fling; Fig From France (Bonus Track)</span></p>
+<p><span class="intext">I Like Watching You Go (Bonus Track)</span></p>
+
+<p><span class="intext"> Don’t You Worry Baby </span></p>
+<p><span class="intext">이별노래</span></p>
+<p><span class="intext">무임승차</span></p>
+<p><span class="intext">Love Shine</span></p>
+<p><span class="intext">외아들</span></p>
+<p><span class="intext">International Love Song</span></p>
+<p><span class="intext">날씨</span></p>
+<p><span class="intext">아침식사</span></p>
+<p><span class="intext">음악하는 여자</span></p>
+<p><span class="intext">젊은 우리 사랑</span></p>
+<p><span class="intext">Ariel</span></p>
+<p><span class="intext">기사도</span></p>
+<p><span class="intext">앵무새</span></p>
+
+<p><span class="intext"> Team Baby </span></p>
+<p><span class="intext">난 아니에요</span></p>
+<p><span class="intext">Big Love</span></p>
+<p><span class="intext">Diamond</span></p>
+<p><span class="intext">Love is All</span></p>
+<p><span class="intext">내 고향 서울엔</span></p>
+<p><span class="intext">폭죽과 풍선들</span></p>
+<p><span class="intext">한시 오분 (1:05)</span></p>
+<p><span class="intext">나랑 아니면</span></p>
+<p><span class="intext">혜야</span></p>
+<p><span class="intext">EVERYTHING</span></p>
+
+<p><span class="intext"> Thirsty </span></p>
+<p><span class="intext">틀린질문</span></p>
+<p><span class="intext">Lester Burnham</span></p>
+<p><span class="intext">섬 (Queen of Diamonds)</span></p>
+<p><span class="intext">상수역</span></p>
+<p><span class="intext">광견일기</span></p>
+<p><span class="intext">Bollywood</span></p>
+<p><span class="intext">빨간 나를</span></p>
+<p><span class="intext">Put Me On Drugs</span></p>
+<p><span class="intext">하와이 검은 모래</span></p>
+<p><span class="intext">맑고 묽게</span></p>
+<p><span class="intext">그늘은 그림자로</span></p>
+<p><span class="intext">피와 갈증 (King of Hurts)</span></p>
+
+<p><span class="intext"> Teen Troubles </span></p>
+<p><span class="intext">Flying Bobs</span></p>
+<p><span class="intext">Baptized In Fire (불세례)</span></p>
+<p><span class="intext">어린양 (My Little Lambs)</span></p>
+<p><span class="intext">Sunday Girl</span></p>
+<p><span class="intext">Friends In Bed</span></p>
+<p><span class="intext">Cicadas (매미들)</span></p>
+<p><span class="intext">Follow You (따라갈래)</span></p>
+<p><span class="intext">Jersey Girl</span></p>
+<p><span class="intext">Love You The Same</span></p>
+<p><span class="intext">Powder Blue</span></p>
+<p><span class="intext">Electra</span></p>
+<p><span class="intext">Min (미는 남자)</span></p>
+<p><span class="intext">Jeff & Alana</span></p>
+<p><span class="intext">Ling Ling</span></p>
+<p><span class="intext">John Fry</span></p>
+<p><span class="intext">99%</span></p>
+<p><span class="intext">Our Own Summer</span></p>
+
+
+</div>
+</section>
+
+<section class="bg2">
+    <div class="wrapper">
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <h2 class="a">정규 앨범 65곡,</h2>
+    <h2 class="a">사랑과 욕망, 솔직함을 탐구하는 기록들</h2>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</section>
+
+<section>
+    <div class="wrapper">
+    <p>검정치마는 가사를 통해 솔직한 감정의 끝단을 표현한다.</p>
+    <p>그 과정에서 일부 가사는 외설적이라 느껴질 수도 있지만,</p>
+    <p>예술적 표현으로서 의미를 갖는다.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>각 곡에서 드러나는 솔직함의 순간들을 직접 읽어보면, 그 의미를 더 분명히 느낄 수 있다.</p>
+    </div>
+</section>
+
+<section>
+    <div class="wrapper">
+    <h2>Click!</h2>
+    </div>
+</section>
+
+<section class="grid">
+    <a href="page1.html" class="item"><img src="B1.png" alt="B1"></a>
+    <a href="page2.html" class="item"><img src="B2.png" alt="B2"></a>
+    <a href="page3.html" class="item"><img src="B3.png" alt="B3"></a>
+    <a href="page4.html" class="item"><img src="B4.png" alt="B4"></a>
+    <a href="page5.html" class="item"><img src="B5.png" alt="B5"></a>
+    <a href="page6.html" class="item"><img src="B6.png" alt="B6"></a>
+    <a href="page7.html" class="item"><img src="B7.png" alt="B7"></a>
+    <a href="page8.html" class="item"><img src="B8.png" alt="B8"></a>
+    <a href="page9.html" class="item"><img src="B9.png" alt="B9"></a>
+    <a href="page10.html" class="item"><img src="B10.png" alt="B10"></a>
+    <a href="page11.html" class="item"><img src="B11.png" alt="B11"></a>
+    <a href="page12.html" class="item"><img src="B12.png" alt="B12"></a>
+</section>
+
+<section>
+    <div class="wrapper">
+    <p>검정치마의 외설적인 가사는 단순한 자극이나 노골성에 머물지 않는다.</p>
+    <p>드러난 문장 사이로는 사랑을 갈망하고, 실패하고, 다시 욕망하는 인간의 본능적 정서가 은밀하게 스며 있다.</p>
+    <p>몸의 언어로 포장된 감정들은 순간의 욕망처럼 보이지만,</p>
+    <p>그 밑바닥에는 이해받고자 하는 마음, 관계의 균열을 붙잡으려는 애착,</p>
+    <p>스스로도 정의하기 어려운 고독이 흐릿한 잔상처럼 남아 있다.</p>
+    <br><br><br>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+</div>
+</section>
+
+<section class="bg3">
+    <div class="wrapper photo-frame2">
+
+    <img src="https://i.pinimg.com/736x/34/26/b4/3426b4883373b42eea0efd749129458a.jpg" width="600">
+    </div>
+</section>
+
+<footer style="background-color:#f5f5f5; padding:40px 20px; text-align:center; font-family: 'KimJeongcheolMyoungjo', serif;">
+
+    <div style="margin-bottom:30px;">
+        <h2 style="font-size:24px; margin-bottom:10px;">Contact</h2>
+        <p style="margin:5px 0;">ig :
+        @_firxtsight</a>
+        </p>
+        <p style="margin:5px 0;">e-mail :
+            firxtsight@seoultech.ac.kr</a>
+        </p>
+    </div>
+
+    <div style="margin-bottom:30px;">
+        <h2 style="font-size:24px; margin-bottom:10px;">Location</h2>
+        <p style="margin:5px 0;">서울과학기술대학교</p>
+    </div>
+
+    <div style="font-size:15px; color:#555;">
+       [ 검정치마 ARCHIVE ]@2025 강서연 all rights reserved
+    </div>
+
+</footer>
+
+</body>
+</html>
